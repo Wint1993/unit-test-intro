@@ -25,6 +25,11 @@ public class FibonacciTest {
         Assert.assertEquals(1,fibonacci.fibonacci(1));
 
     }
+    @Test
+    public void shouldReturnTwoForThree(){
+        Assert.assertEquals(2,fibonacci.fibonacci(3));
+
+    }
 
 
  @Test(expected = IllegalArgumentException.class)
